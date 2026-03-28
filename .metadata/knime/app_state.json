@@ -1,0 +1,82 @@
+{
+  "version" : "5.11.0.v202603030810",
+  "projects" : [ {
+    "name" : "Calidad Aire",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "Práctica1\\Calidad Aire"
+    }
+  }, {
+    "name" : "Aerolineas",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "Práctica1\\Aerolineas"
+    }
+  }, {
+    "name" : "Spotify",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "Práctica1\\Spotify"
+    }
+  }, {
+    "name" : "aprobacion de prestamo",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "aprobacion de prestamo"
+    }
+  } ],
+  "mostRecentlyUsedProjects" : [ {
+    "name" : "aprobacion de prestamo",
+    "timeUsed" : "2025-10-09T09:36:45.6071381+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "aprobacion de prestamo"
+    }
+  }, {
+    "name" : "Valores ausentes",
+    "timeUsed" : "2025-10-23T09:17:33.7442435+02:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Valores ausentes"
+    }
+  }, {
+    "name" : "Calidad Aire",
+    "timeUsed" : "2025-10-26T19:08:04.6691234+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Práctica1\\Calidad Aire"
+    }
+  }, {
+    "name" : "Aerolineas",
+    "timeUsed" : "2025-10-26T19:08:10.651736+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Práctica1\\Aerolineas"
+    }
+  }, {
+    "name" : "Spotify",
+    "timeUsed" : "2025-11-06T00:21:59.0987773+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Práctica1\\Spotify"
+    }
+  } ]
+}

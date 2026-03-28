@@ -1,0 +1,7 @@
+{
+    "string-input-76": {
+        "label": "name_positive",
+        "type": "string",
+        "default": ""
+    }
+}

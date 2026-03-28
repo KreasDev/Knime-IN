@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="statistic.xml.gz">
+    <config key="spec">
+        <entry key="spec_name" type="xstring" value="default"/>
+        <entry key="number_columns" type="xint" value="3"/>
+        <config key="column_spec_0">
+            <entry key="column_name" type="xstring" value="Rule"/>
+            <config key="element_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="column_type">
+                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+            </config>
+            <config key="column_domain"/>
+            <config key="column_properties"/>
+            <config key="meta_data"/>
+        </config>
+        <config key="column_spec_1">
+            <entry key="column_name" type="xstring" value="Record count"/>
+            <config key="element_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="column_type">
+                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+            </config>
+            <config key="column_domain">
+                <config key="lower_bound">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <config key="org.knime.core.data.def.DoubleCell">
+                        <entry key="DoubleCell" type="xdouble" value="0.0"/>
+                    </config>
+                </config>
+                <config key="upper_bound">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <config key="org.knime.core.data.def.DoubleCell">
+                        <entry key="DoubleCell" type="xdouble" value="1793.0"/>
+                    </config>
+                </config>
+            </config>
+            <config key="column_properties"/>
+            <config key="meta_data"/>
+        </config>
+        <config key="column_spec_2">
+            <entry key="column_name" type="xstring" value="Number of correct"/>
+            <config key="element_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="column_type">
+                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+            </config>
+            <config key="column_domain">
+                <config key="lower_bound">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <config key="org.knime.core.data.def.DoubleCell">
+                        <entry key="DoubleCell" type="xdouble" value="0.0"/>
+                    </config>
+                </config>
+                <config key="upper_bound">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <config key="org.knime.core.data.def.DoubleCell">
+                        <entry key="DoubleCell" type="xdouble" value="1793.0"/>
+                    </config>
+                </config>
+            </config>
+            <config key="column_properties"/>
+            <config key="meta_data"/>
+        </config>
+    </config>
+    <config key="minimumCells">
+        <entry key="array-size" type="xint" value="3"/>
+        <config key="0">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.MissingCell"/>
+            <config key="org.knime.core.data.MissingCell"/>
+        </config>
+        <config key="1">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+            <config key="org.knime.core.data.def.DoubleCell">
+                <entry key="DoubleCell" type="xdouble" value="0.0"/>
+            </config>
+        </config>
+        <config key="2">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+            <config key="org.knime.core.data.def.DoubleCell">
+                <entry key="DoubleCell" type="xdouble" value="0.0"/>
+            </config>
+        </config>
+    </config>
+    <config key="maximumCells">
+        <entry key="array-size" type="xint" value="3"/>
+        <config key="0">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.MissingCell"/>
+            <config key="org.knime.core.data.MissingCell"/>
+        </config>
+        <config key="1">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+            <config key="org.knime.core.data.def.DoubleCell">
+                <entry key="DoubleCell" type="xdouble" value="1793.0"/>
+            </config>
+        </config>
+        <config key="2">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+            <config key="org.knime.core.data.def.DoubleCell">
+                <entry key="DoubleCell" type="xdouble" value="1793.0"/>
+            </config>
+        </config>
+    </config>
+    <config key="minimumNonInf">
+        <entry key="array-size" type="xint" value="3"/>
+        <config key="0">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.MissingCell"/>
+            <config key="org.knime.core.data.MissingCell"/>
+        </config>
+        <config key="1">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+            <config key="org.knime.core.data.def.DoubleCell">
+                <entry key="DoubleCell" type="xdouble" value="0.0"/>
+            </config>
+        </config>
+        <config key="2">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+            <config key="org.knime.core.data.def.DoubleCell">
+                <entry key="DoubleCell" type="xdouble" value="0.0"/>
+            </config>
+        </config>
+    </config>
+    <config key="maximumNonInf">
+        <entry key="array-size" type="xint" value="3"/>
+        <config key="0">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.MissingCell"/>
+            <config key="org.knime.core.data.MissingCell"/>
+        </config>
+        <config key="1">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+            <config key="org.knime.core.data.def.DoubleCell">
+                <entry key="DoubleCell" type="xdouble" value="1793.0"/>
+            </config>
+        </config>
+        <config key="2">
+            <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+            <config key="org.knime.core.data.def.DoubleCell">
+                <entry key="DoubleCell" type="xdouble" value="1793.0"/>
+            </config>
+        </config>
+    </config>
+    <config key="mean">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="NaN"/>
+        <entry key="1" type="xdouble" value="207.77049180327867"/>
+        <entry key="2" type="xdouble" value="194.34426229508193"/>
+    </config>
+    <config key="variance">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="NaN"/>
+        <entry key="1" type="xdouble" value="161015.07085760735"/>
+        <entry key="2" type="xdouble" value="146812.69042135213"/>
+    </config>
+    <config key="median">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="NaN"/>
+        <entry key="1" type="xdouble" value="NaN"/>
+        <entry key="2" type="xdouble" value="NaN"/>
+    </config>
+    <config key="missings">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xint" value="0"/>
+        <entry key="1" type="xint" value="0"/>
+        <entry key="2" type="xint" value="0"/>
+    </config>
+    <config key="nans">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xint" value="0"/>
+        <entry key="1" type="xint" value="0"/>
+        <entry key="2" type="xint" value="0"/>
+    </config>
+    <config key="posInfs">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xint" value="0"/>
+        <entry key="1" type="xint" value="0"/>
+        <entry key="2" type="xint" value="0"/>
+    </config>
+    <config key="negInfs">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xint" value="0"/>
+        <entry key="1" type="xint" value="0"/>
+        <entry key="2" type="xint" value="0"/>
+    </config>
+    <config key="sums">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="0.0"/>
+        <entry key="1" type="xdouble" value="25348.0"/>
+        <entry key="2" type="xdouble" value="23709.999999999996"/>
+    </config>
+    <config key="skewness">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="NaN"/>
+        <entry key="1" type="xdouble" value="2.293419263614975"/>
+        <entry key="2" type="xdouble" value="2.3862903173096472"/>
+    </config>
+    <config key="kurtosis">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="NaN"/>
+        <entry key="1" type="xdouble" value="4.179769343286314"/>
+        <entry key="2" type="xdouble" value="4.763308818659782"/>
+    </config>
+    <entry key="row_count" type="xint" value="122"/>
+    <config key="Rule">
+        <config key="$loan_percent_income$ &lt;= 0.155 AND $person_income$ &lt;= 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_percent_income$ &lt;= 0.155 AND $person_income$ &lt;= 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_percent_income$ &gt; 0.155 AND $person_income$ &lt;= 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_percent_income$ &gt; 0.155 AND $person_income$ &lt;= 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;EDUCATION&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;EDUCATION&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;VENTURE&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;VENTURE&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_age$ &lt;= 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_age$ &lt;= 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OWN&quot; AND $person_income$ &lt;= 34500.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OWN&quot; AND $person_income$ &lt;= 34500.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $person_income$ &lt;= 34500.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $person_income$ &lt;= 34500.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;RENT&quot; AND $person_income$ &lt;= 34500.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;RENT&quot; AND $person_income$ &lt;= 34500.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OTHER&quot; AND $person_income$ &lt;= 34500.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OTHER&quot; AND $person_income$ &lt;= 34500.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_income$ &gt; 34500.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_income$ &gt; 34500.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;PERSONAL&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;PERSONAL&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;MEDICAL&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;MEDICAL&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;B&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OWN&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OWN&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;RENT&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;RENT&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OTHER&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OTHER&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_income$ &lt;= 19600.0 AND $person_emp_length$ &gt; 2.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_income$ &lt;= 19600.0 AND $person_emp_length$ &gt; 2.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_income$ &gt; 19600.0 AND $person_emp_length$ &gt; 2.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_income$ &gt; 19600.0 AND $person_emp_length$ &gt; 2.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OWN&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OWN&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;RENT&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;RENT&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OTHER&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OTHER&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_emp_length$ &gt; 2.5 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_emp_length$ &gt; 2.5 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OWN&quot; AND $person_income$ &lt;= 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OWN&quot; AND $person_income$ &lt;= 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $person_income$ &lt;= 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $person_income$ &lt;= 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;RENT&quot; AND $person_income$ &lt;= 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;RENT&quot; AND $person_income$ &lt;= 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OTHER&quot; AND $person_income$ &lt;= 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OTHER&quot; AND $person_income$ &lt;= 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OWN&quot; AND $person_emp_length$ &lt;= 2.5 AND $person_income$ &gt; 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OWN&quot; AND $person_emp_length$ &lt;= 2.5 AND $person_income$ &gt; 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $person_emp_length$ &lt;= 2.5 AND $person_income$ &gt; 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $person_emp_length$ &lt;= 2.5 AND $person_income$ &gt; 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;RENT&quot; AND $person_emp_length$ &lt;= 2.5 AND $person_income$ &gt; 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;RENT&quot; AND $person_emp_length$ &lt;= 2.5 AND $person_income$ &gt; 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OTHER&quot; AND $person_emp_length$ &lt;= 2.5 AND $person_income$ &gt; 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OTHER&quot; AND $person_emp_length$ &lt;= 2.5 AND $person_income$ &gt; 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_age$ &lt;= 23.5 AND $person_emp_length$ &gt; 2.5 AND $person_income$ &gt; 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_age$ &lt;= 23.5 AND $person_emp_length$ &gt; 2.5 AND $person_income$ &gt; 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_age$ &gt; 23.5 AND $person_emp_length$ &gt; 2.5 AND $person_income$ &gt; 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_age$ &gt; 23.5 AND $person_emp_length$ &gt; 2.5 AND $person_income$ &gt; 44200.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OWN&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OWN&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;RENT&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;RENT&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OTHER&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OTHER&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_emp_length$ &gt; 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_emp_length$ &gt; 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OWN&quot; AND $loan_intent$ = &quot;MEDICAL&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OWN&quot; AND $loan_intent$ = &quot;MEDICAL&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_intent$ = &quot;MEDICAL&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_intent$ = &quot;MEDICAL&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;RENT&quot; AND $loan_intent$ = &quot;MEDICAL&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;RENT&quot; AND $loan_intent$ = &quot;MEDICAL&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OTHER&quot; AND $loan_intent$ = &quot;MEDICAL&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OTHER&quot; AND $loan_intent$ = &quot;MEDICAL&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OWN&quot; AND $loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OWN&quot; AND $loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;RENT&quot; AND $loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;RENT&quot; AND $loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OTHER&quot; AND $loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OTHER&quot; AND $loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $loan_grade$ = &quot;D&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_percent_income$ &lt;= 0.155 AND $person_income$ &lt;= 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_percent_income$ &lt;= 0.155 AND $person_income$ &lt;= 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_percent_income$ &gt; 0.155 AND $person_income$ &lt;= 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_percent_income$ &gt; 0.155 AND $person_income$ &lt;= 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;EDUCATION&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;EDUCATION&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;VENTURE&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;VENTURE&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_age$ &lt;= 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_age$ &lt;= 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OWN&quot; AND $person_income$ &lt;= 37510.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OWN&quot; AND $person_income$ &lt;= 37510.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $person_income$ &lt;= 37510.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $person_income$ &lt;= 37510.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;RENT&quot; AND $person_income$ &lt;= 37510.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;RENT&quot; AND $person_income$ &lt;= 37510.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OTHER&quot; AND $person_income$ &lt;= 37510.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OTHER&quot; AND $person_income$ &lt;= 37510.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_income$ &gt; 37510.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_income$ &gt; 37510.0 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;PERSONAL&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;PERSONAL&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;MEDICAL&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;MEDICAL&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $person_income$ &gt; 19614.0 AND $loan_grade$ = &quot;A&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_emp_length$ &lt;= 1.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_emp_length$ &lt;= 1.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$cb_person_cred_hist_length$ &lt;= 2.5 AND $person_income$ &lt;= 34750.0 AND $person_emp_length$ &gt; 1.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$cb_person_cred_hist_length$ &lt;= 2.5 AND $person_income$ &lt;= 34750.0 AND $person_emp_length$ &gt; 1.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$cb_person_cred_hist_length$ &gt; 2.5 AND $person_income$ &lt;= 34750.0 AND $person_emp_length$ &gt; 1.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$cb_person_cred_hist_length$ &gt; 2.5 AND $person_income$ &lt;= 34750.0 AND $person_emp_length$ &gt; 1.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_income$ &gt; 34750.0 AND $person_emp_length$ &gt; 1.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_income$ &gt; 34750.0 AND $person_emp_length$ &gt; 1.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_emp_length$ &gt; 2.5 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_emp_length$ &gt; 2.5 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_income$ &lt;= 49498.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_income$ &lt;= 49498.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_emp_length$ &lt;= 2.5 AND $person_income$ &gt; 49498.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_emp_length$ &lt;= 2.5 AND $person_income$ &gt; 49498.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_age$ &lt;= 23.5 AND $person_emp_length$ &gt; 2.5 AND $person_income$ &gt; 49498.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_age$ &lt;= 23.5 AND $person_emp_length$ &gt; 2.5 AND $person_income$ &gt; 49498.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_age$ &gt; 23.5 AND $person_emp_length$ &gt; 2.5 AND $person_income$ &gt; 49498.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_age$ &gt; 23.5 AND $person_emp_length$ &gt; 2.5 AND $person_income$ &gt; 49498.0 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OWN&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OWN&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;RENT&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;RENT&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OTHER&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OTHER&quot; AND $person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_emp_length$ &gt; 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_emp_length$ &gt; 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;MEDICAL&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;MEDICAL&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $loan_grade$ = &quot;E&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_percent_income$ &lt;= 0.155 AND $person_income$ &lt;= 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_percent_income$ &lt;= 0.155 AND $person_income$ &lt;= 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_percent_income$ &gt; 0.155 AND $person_income$ &lt;= 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_percent_income$ &gt; 0.155 AND $person_income$ &lt;= 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;EDUCATION&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;EDUCATION&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;VENTURE&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;VENTURE&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_age$ &lt;= 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_age$ &lt;= 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OWN&quot; AND $person_income$ &lt;= 49900.5 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OWN&quot; AND $person_income$ &lt;= 49900.5 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $person_income$ &lt;= 49900.5 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;MORTGAGE&quot; AND $person_income$ &lt;= 49900.5 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;RENT&quot; AND $person_income$ &lt;= 49900.5 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;RENT&quot; AND $person_income$ &lt;= 49900.5 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OTHER&quot; AND $person_income$ &lt;= 49900.5 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OTHER&quot; AND $person_income$ &lt;= 49900.5 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_income$ &gt; 49900.5 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_income$ &gt; 49900.5 AND $person_age$ &gt; 23.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;PERSONAL&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;PERSONAL&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;MEDICAL&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;MEDICAL&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $person_income$ &gt; 19984.0 AND $loan_grade$ = &quot;C&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_income$ &lt;= 59787.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_income$ &lt;= 59787.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_income$ &gt; 59787.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_income$ &gt; 59787.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_emp_length$ &gt; 2.5 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_emp_length$ &gt; 2.5 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_emp_length$ &lt;= 6.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_emp_length$ &lt;= 6.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_emp_length$ &gt; 6.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_emp_length$ &gt; 6.5 AND $loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_emp_length$ &lt;= 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_emp_length$ &gt; 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_emp_length$ &gt; 2.5 AND $loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;MEDICAL&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;MEDICAL&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $loan_grade$ = &quot;F&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_grade$ = &quot;G&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_grade$ = &quot;G&quot; AND $loan_percent_income$ &lt;= 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_income$ &lt;= 19900.0 AND $person_home_ownership$ = &quot;OWN&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_income$ &lt;= 19900.0 AND $person_home_ownership$ = &quot;OWN&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_income$ &gt; 19900.0 AND $person_home_ownership$ = &quot;OWN&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_income$ &gt; 19900.0 AND $person_home_ownership$ = &quot;OWN&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_grade$ = &quot;B&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_grade$ = &quot;B&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_emp_length$ &lt;= 1.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;D&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_emp_length$ &lt;= 1.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;D&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_emp_length$ &gt; 1.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;D&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_emp_length$ &gt; 1.5 AND $loan_intent$ = &quot;EDUCATION&quot; AND $loan_grade$ = &quot;D&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_income$ &lt;= 39998.0 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;D&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_income$ &lt;= 39998.0 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;D&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_income$ &gt; 39998.0 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;D&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_income$ &gt; 39998.0 AND $loan_intent$ = &quot;VENTURE&quot; AND $loan_grade$ = &quot;D&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;HOMEIMPROVEMENT&quot; AND $loan_grade$ = &quot;D&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;D&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;PERSONAL&quot; AND $loan_grade$ = &quot;D&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;MEDICAL&quot; AND $loan_grade$ = &quot;D&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;MEDICAL&quot; AND $loan_grade$ = &quot;D&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $loan_grade$ = &quot;D&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_intent$ = &quot;DEBTCONSOLIDATION&quot; AND $loan_grade$ = &quot;D&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_income$ &lt;= 21512.0 AND $loan_grade$ = &quot;A&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_income$ &lt;= 21512.0 AND $loan_grade$ = &quot;A&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_income$ &gt; 21512.0 AND $loan_grade$ = &quot;A&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_income$ &gt; 21512.0 AND $loan_grade$ = &quot;A&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_grade$ = &quot;E&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_grade$ = &quot;E&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_income$ &lt;= 34500.0 AND $cb_person_cred_hist_length$ &lt;= 4.5 AND $loan_grade$ = &quot;C&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_income$ &lt;= 34500.0 AND $cb_person_cred_hist_length$ &lt;= 4.5 AND $loan_grade$ = &quot;C&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_income$ &gt; 34500.0 AND $cb_person_cred_hist_length$ &lt;= 4.5 AND $loan_grade$ = &quot;C&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_income$ &gt; 34500.0 AND $cb_person_cred_hist_length$ &lt;= 4.5 AND $loan_grade$ = &quot;C&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$cb_person_cred_hist_length$ &gt; 4.5 AND $loan_grade$ = &quot;C&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;0&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$cb_person_cred_hist_length$ &gt; 4.5 AND $loan_grade$ = &quot;C&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;0&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_grade$ = &quot;F&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_grade$ = &quot;F&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$loan_grade$ = &quot;G&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$loan_grade$ = &quot;G&quot; AND $person_home_ownership$ = &quot;MORTGAGE&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;RENT&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;RENT&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="$person_home_ownership$ = &quot;OTHER&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;">
+            <config key="key">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="$person_home_ownership$ = &quot;OTHER&quot; AND $loan_percent_income$ &gt; 0.305 =&gt; &quot;1&quot;"/>
+                </config>
+            </config>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+    </config>
+</config>

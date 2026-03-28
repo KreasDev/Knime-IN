@@ -1,0 +1,6 @@
+C:\Users\alexl\OneDrive\Documents\IN\spotify_churn_dataset.csv
+C:\Users\alexl\OneDrive\Documents\IN\updated_pollution_dataset.csv
+C:\Users\alexl\OneDrive\Documents\IN\airline_passenger_satisfaction.csv
+C:\Users\alexl\Downloads\mountains_vs_beaches_preferences.csv
+C:\Users\alexl\OneDrive\Documents\IN\datasets_practica1\spotify_churn_dataset.csv
+C:\Users\alexl\Downloads\credit_risk_dataset.csv
